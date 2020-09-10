@@ -1,4 +1,5 @@
 #include "solve.h"
+#include "valid.h"
 #difine N 8
 
 bool solve(int board[N][N], int col) {

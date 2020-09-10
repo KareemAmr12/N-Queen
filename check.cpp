@@ -1,4 +1,6 @@
 #include "check.h"
+#include "print.h"
+#include "solve.h"
 #define N 8
 bool check() {
    int board[N][N];
@@ -12,4 +14,6 @@ bool check() {
    print(board);
    return true;
 }
+
+
 
